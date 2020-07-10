@@ -81,7 +81,7 @@ QLabel#Salida{
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>320</y>
+      <y>310</y>
       <width>531</width>
       <height>41</height>
      </rect>

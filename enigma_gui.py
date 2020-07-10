@@ -33,6 +33,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         #maquina enigma para desencriptar
         enigma2c = self.enigma2.text().upper()
         enigma1 = Enigma(enigma1c)
+        
         enigma2 = Enigma(enigma2c)
 
         result = self.encrypt(mensaje, enigma1)
